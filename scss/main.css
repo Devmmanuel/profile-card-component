@@ -1,0 +1,9 @@
+body {
+  background-color: #19a2ae;
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-size: 40%,40%;
+  background-position-x: left, right;
+  background-position-y: 0%, -50%;
+  background-repeat: no-repeat, no-repeat;
+}
+/*# sourceMappingURL=main.css.map */

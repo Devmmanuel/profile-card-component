@@ -1,0 +1,14 @@
+$background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+$links-color: yellow; 
+$background-card: blue;
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    background-image: $background-image;
+    background-size: 40%,40%;
+    background-position-x: left, right;
+    background-position-y: 0%, -50%;
+    background-repeat: no-repeat, no-repeat;
+}
+
+
