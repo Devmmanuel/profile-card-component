@@ -1,10 +1,67 @@
 body {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 99.5vw;
+  height: 99vh;
   background-color: #19a2ae;
   background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
-  background-size: 45vh,45vh;
-  background-position-x: -20vh, 50vw;
-  background-position-y: 0vh, 60vh;
+  background-size: 90%, 90%;
+  background-position-x: -50vw, 50vw;
+  background-position-y: -20vh, 70vh;
   background-repeat: no-repeat, no-repeat;
+  border-style: solid;
+  border-color: yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body div {
+  background-color: white;
+  width: 30%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+body div img {
+  margin-top: -6vh;
+  border-style: solid;
+  border-color: white;
+  border-radius: 50%;
+  width: 8vw;
+  height: 10vh;
+}
+
+body div #top {
+  background-image: url(../images/bg-pattern-card.svg);
+  width: 100%;
+  height: 50%;
+}
+
+body div #bottom {
+  background-color: white;
+  width: 100%;
+  height: 50%;
 }
 
 @media (min-width: 600px) {
