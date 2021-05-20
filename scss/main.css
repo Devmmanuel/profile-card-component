@@ -67,8 +67,8 @@ img {
   border-style: solid;
   border-color: white;
   border-radius: 50%;
-  width: 25%;
-  margin-top: -12%;
+  width: 30%;
+  margin-top: -16%;
 }
 
 #personal-information {
@@ -140,16 +140,6 @@ hr {
 
 #stats div span {
   margin-top: 20%;
-}
-
-.attribution {
-  margin-top: 15%;
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: #3e52a3;
 }
 
 @media (min-width: 1280px) {
