@@ -157,4 +157,18 @@ hr {
     height: 45%;
   }
 }
+
+@media (max-height: 768px) and (min-width: 1336px) {
+  body {
+    background-position-x: -45vw, 38vw;
+    background-position-y: -110vh, 50vh;
+  }
+  #main {
+    height: 58%;
+    width: 25%;
+  }
+  .attribution {
+    margin-top: 5%;
+  }
+}
 /*# sourceMappingURL=main.css.map */
