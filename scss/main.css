@@ -164,8 +164,11 @@ hr {
     background-position-y: -110vh, 50vh;
   }
   #main {
-    height: 58%;
+    height: 55%;
     width: 25%;
+  }
+  #stats {
+    margin-top: 0%;
   }
   .attribution {
     margin-top: 5%;

@@ -68,7 +68,6 @@ img {
   font-weight: 400;
 }
 
-
 hr {
   width: 100%;
   opacity: .2;
@@ -141,8 +140,12 @@ hr {
   }
 
   #main {
-    height: 58%;
+    height: 55%;
     width: 25%;
+  }
+
+  #stats {
+    margin-top: 0%;
   }
 
   .attribution { 
